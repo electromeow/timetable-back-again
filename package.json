@@ -1,0 +1,36 @@
+{
+  "name": "timetable",
+  "version": "1.0.0",
+  "description": "A Discord bot to create weekly timetables and don't miss anything!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electromeow/timetable-back-again.git"
+  },
+  "keywords": [
+    "discord",
+    "timetable",
+    "reminder",
+    "bot",
+    "covid"
+  ],
+  "author": "electromeow",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/electromeow/timetable-back-again/issues"
+  },
+  "homepage": "https://github.com/electromeow/timetable-back-again#readme",
+  "engines": {
+    "node": ">=16"
+  },
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^13.1.0",
+    "dotenv": "^10.0.0",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.7.1"
+  }
+}
